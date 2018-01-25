@@ -725,7 +725,7 @@ namespace ts {
 
     export interface CompletionInfo {
         isGlobalCompletion: boolean;
-        isMemberCompletion: boolean; //why did we need this?
+        isMemberCompletion: boolean;
 
         /**
          * true when the current location also allows for a new identifier
